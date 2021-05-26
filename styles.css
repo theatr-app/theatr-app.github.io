@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  font-size: 14px;
+  background-color: #f8f8ff;
+}
+
+.main {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.box {
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+
+.text {
+  padding: 110px 0;
+}
+
+.header {
+  margin-bottom: 8px;
+}
+
+.footer {
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+}
